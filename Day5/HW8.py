@@ -1,0 +1,10 @@
+name = input("რა გქვია?: ")
+surname = input("რა გვარიხარ?: ")
+age = input("რამდენი წლის ხარ?: ")
+place = input("სად ცხოვრობ?:")
+hobby = input("რა არის შენი ჰობი?:")
+
+print ("შენი სახელი და გვარია" + " " + name + surname)
+print ("შენი ხარ" + " " + age  + "წლის" )
+print ("შენ ცხოვრობ" + " " + place) 
+print ("შენი ჰობია" + " " + hobby)
