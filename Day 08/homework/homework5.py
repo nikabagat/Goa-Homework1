@@ -2,12 +2,11 @@
 
 num1 = int(input("enter your number: "))
 
-num1 > 100
-
-print(num1 > 100)
-
-if(num1 % 2) == 0:
-    print("{0} is even number".format(num1))
+if num1 > 100 and num1 % 2 == 0:
+    print("მომხმარებლის შემოტანილი რიცხვი 100-ზე მეტია, ლუწია")
+elif num1 < 100 and num1 % 2 == 0:
+    print("მომხმარებლის შემოტანილი რიცხვი 100-ზე ნაკლებია, ლუწია")
+elif num1 == 100 and num1 % 2 == 0:
+    print("100-ის ტოლია, ლუწია")
 else:
-    print("{0} is odd number".format(num1))
-
+    print("არცერთი არ არის")
