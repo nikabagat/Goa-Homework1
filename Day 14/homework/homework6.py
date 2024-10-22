@@ -3,6 +3,7 @@
 sum = 0
 
 for i in range(1, 6):
-    sum = sum + i
+    sum = sum + (i * i)
+    #sum += i
 
-print(sum * sum)
+print(sum)
