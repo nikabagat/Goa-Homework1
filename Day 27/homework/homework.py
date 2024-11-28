@@ -4,7 +4,4 @@ sum = 0
 
 for element in range(101):
     sum += element
-    print(sum)\
-
-
-#Didn't understand
+print(sum)
