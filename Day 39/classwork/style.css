@@ -1,0 +1,20 @@
+.over{
+    text-decoration: overline green;
+    color: yellow;
+}
+
+.under{
+    text-decoration: underline red;
+    color: blue;
+}
+
+.through{
+    text-decoration: line-through purple;
+    color: brown;
+}
+
+.through and over{
+    text-decoration: line-through overline;
+    
+}
+

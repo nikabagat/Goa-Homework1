@@ -1,0 +1,9 @@
+/* 4) შექმენით 2 h1  ერთს მიანიჭეთ id მეორეს class და external css-ის გამოყენებით გასტილეთ განსხვავებულად */
+
+.h1{
+    background-color: rgb(100, 150, 200); color: rgb(150, 100, 50); text-align: center; font-size: 25px;
+}
+
+#h1{
+    background-color: rgb(200, 150, 100); color: rgb(50, 100, 150); text-align: center; font-size:25px;
+}

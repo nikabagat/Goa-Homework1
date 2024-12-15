@@ -1,0 +1,6 @@
+/* 4) შექმენით პარაგრაფი რომელსაც შუაში ექნება წყვეტილი ხაზები გასმული ლურჯ ფერში  */
+
+
+.p{
+    text-decoration: line-through underline dotted blue;
+}
