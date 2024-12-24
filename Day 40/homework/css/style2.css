@@ -1,0 +1,29 @@
+/* 3) დაწერეთ რამდენიმე განსხვავებული ფერის ზომის სისქის და font-ის ტექსტები */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+.p1{
+    font-family: "Oswald", serif;
+    color: red;
+    font-size: 50px;
+    width: 80px;
+
+}
+
+.p2{
+    font-family: "Playfair Display", serif;
+    color: green;
+    font-size: 70px;
+    width: 90px;
+}
+
+.p3{
+    font-family: "Saira Condensed", serif;
+    color: blue;
+    font-size: 90px;
+    width: 100px;
+}

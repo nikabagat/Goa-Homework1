@@ -1,0 +1,7 @@
+/* დღეს ნასწავლი მასალით google font-ში მოძებნეთ თქვენი საყვარელი font შემდეგ ჩამოწერეთ ნუშის დადებითი და უარყოფითი თვისებები */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+.p1{
+    font-family: "Oswald", serif;
+    
+}

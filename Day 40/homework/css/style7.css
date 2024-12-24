@@ -1,0 +1,14 @@
+/* 8) შრიფტის ტიპის შეცვლა
+გამოიყენეთ font-family სხვადასხვა შრიფტის ტიპებისთვის, როგორიცაა Arial, Times New Roman და სხვა. */
+
+.p1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p2{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.p3{
+    font-family: cursive;
+}
