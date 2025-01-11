@@ -1,0 +1,17 @@
+body{
+    height: 100vh;
+
+}
+
+div{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex-direction: column;
+}
+
+.P{
+    font-size: 10px;
+    position: fixed;
+    top: 10px;
+}

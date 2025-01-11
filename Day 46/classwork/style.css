@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+
+
+}
+
+nav{
+  display: flex;;
+  width: 1250px;
+  height: 75px;
+  background-color: black;
+  color: bisque;
+}
+
+div{
+  display: flex ;
+  gap: 30px ;
+  justify-content: center;
+  align-items: center;
+  padding-left: 175px;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(124, 255, 168);
+}
+
+h1{
+  padding-top:25px ;
+  padding-left: 120px ; font-family: "DM Serif Text", serif;
+  font-weight: 02 ;
+  color: green;
+  text-shadow: 5px 1px 10px yellowgreen;
+}
+
+.bbg{
+    padding-top: 25px;
+    padding-left: 50px;
+}

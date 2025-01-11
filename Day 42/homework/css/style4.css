@@ -1,0 +1,13 @@
+/* გამოიყენეთ :hover რათა მაუსის ლინკზე გადატარებისას ტექსტის ფერი და background შეიცვალოს */
+
+
+a{
+    color: red ;
+    background-color: red ;
+}
+
+a:hover{
+    color: blue;
+    background-color: blue ;
+    transition: 0.5s;
+}

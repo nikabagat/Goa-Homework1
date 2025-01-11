@@ -1,3 +1,7 @@
 #2) განუწყვეტლივ სთხოვეთ მომხმარებელს მისი სახელი, სანამ არ შეიყვანს "quit"-ს.
 
-on = True
+name = input("enter your name: ")
+
+while name != "quit":
+    input("enter your name: ")
+    
