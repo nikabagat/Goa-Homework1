@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f3eae3;
+    
+}
+
+.all{
+    display: flex;
+    justify-content: space-between;
+    width: 625px;
+    height: 450px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+}
+
+.info{
+    margin-right: 40px;
+}
+
+#p{
+    
+    position: relative;
+    top: 30px;
+    margin-top: -10px;
+    font-size: 15px;
+    opacity: 0.6;
+    line-height: 1.7;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h1{
+    position: relative;
+    top: 25px;
+    font-size: 2.2rem;
+    line-height: 34px;
+    opacity: 0.9;
+    margin-top: 22px;
+    padding-left: 1px;
+    font-weight:bolder;
+    font-style: normal;   
+}
+
+h2{
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    opacity: 0.5;
+    letter-spacing: 4px;
+    margin-top: 30px;
+}
+
+img{
+    width: 50%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#new{
+    color: hsl(158, 36%, 37%);
+    font-size: 29.9px;
+    font-weight: bolder;
+    opacity: 100%;
+}
+
+button{
+    background-color: hsl(158, 36%, 37%);
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 11px 80px;
+    border-radius: 8px;
+    border-style: none;
+    cursor: pointer;
+    transition:0.5 ;
+    position: relative;
+    top: 50px;
+}
+
+button:hover{
+    background-color: hsl(156, 42%, 22%);
+}
+
+button img{
+    margin-right: 10px ;
+    width: 20px;
+}
+
+
+.price{
+    margin-left: 1px;
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 65%;
+    position: relative;
+    top: 40px;
+}
+
+#old{
+    text-decoration: line-through;
+    opacity: 0.5;
+    font-size: 15px;
+}
