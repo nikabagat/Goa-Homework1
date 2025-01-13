@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 370vh;
+}
+
+.background{
+    background-color: hsl(193, 100%, 96%);
+    width: 1851px;
+    height: 850px;
+}
+
+.huddle{
+    color: black;
+    position: absolute;
+    bottom: 680px;
+    left: 70px;
+}
+
+.first-button{
+    position: absolute;
+    bottom: 690px;
+    left: 1525px;
+    width: 180px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: white;
+    border-color: white;
+    font-weight: 700;
+}
+
+.first-photo{
+    width: 900px;
+    position: absolute;
+    bottom: -20px;
+    left: 800px;
+
+}
+
+.first-h1{
+    position:absolute;
+    bottom: 420px;
+    left: 76px;
+    font-size: 44px;
+}
+
+.text-1{
+    font-size: 23px;
+    position: absolute;
+    bottom: 280px;
+    left: 80px;
+}
+
+.button-2{
+    position: absolute;
+    z-index: 2;
+    bottom: 180px;
+    left: 75px;
+    border-radius: 25px;
+    height: 50px ;
+    width: 300px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    border: none;
+    font-weight: 700;
+}
+
+.grow{
+    position: relative;
+    top: 140px;
+    left: 100px;
+    height: 500px;
+    width: 1600px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.grow .grow-img{
+    height: 400px;
+    position: absolute;
+    left: 1050px;
+    top: 50px;
+}
+
+.h2-2{
+    position: relative;
+    left:150px ;
+    top: 180px;
+    font-weight: 900;
+}
+
+.text-2{
+    position: relative;
+    left:150px ;
+    top: 200px;
+    opacity: 0.4;
+}
+
+.flow .flow-img{
+    height: 400px;
+    position: absolute;
+    right: 1000px;
+    top: 50px;
+}
+
+
+.flow{
+    position: relative;
+    top: 180px;
+    left: 100px;
+    height: 500px;
+    width: 1600px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.h2-h3{
+    position: absolute;
+    left: 900px;
+    top: 170px;
+}
+
+.text-3{
+    position: absolute;
+    left:900px;
+    top: 230px;
+    opacity: 0.4;
+}
+
+.your-user{
+    position: relative;
+    top: 220px;
+    left: 100px;
+    height: 500px;
+    width: 1600px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.your-user-photo{
+    height: 400px;
+    position: absolute;
+    left: 1050px;
+    top: 50px;
+}
+
+
+.h1-3{
+    position: relative;
+    left:150px ;
+    top: 180px;
+    font-weight: 900;
+}
+
+
+.text-4{
+    position: relative;
+    left:150px ;
+    top: 200px;
+    opacity: 0.4;
+}
+
+
+.last-div{
+    border: 1px solid grey;
+    border-radius: 30px;
+    height: 200px;
+    width: 600px;
+    position: absolute;
+    left: 600px;
+    top: 2650px;
+}
+
+
+.last-h1{
+    position: absolute;
+    left: 60px;
+    top: 30px;
+}
+
+.last-button{
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    left: 170px;
+    top: 100px;
+    border-radius: 25px;
+    font-weight: 700;
+    border:none;
+}
