@@ -1,1 +1,4 @@
-print("we didnt had classwork")
+# 1) დაბეჭდეთ ერთიდან 20 მდე ყველა ლუწი რიცხვი for loop ის გამოყენებით
+
+for i in range(0, 20, 2):
+    print(i)

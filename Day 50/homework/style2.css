@@ -5,25 +5,26 @@
 }
 
 body{
-    height: 370vh;
+    overflow-x: hidden;
+    height: 350vh;
 }
 
 .background{
     background-color: hsl(193, 100%, 96%);
     width: 1851px;
-    height: 850px;
+    height: 885px;
 }
 
 .huddle{
     color: black;
     position: absolute;
-    bottom: 680px;
-    left: 70px;
+    bottom: 730px;
+    left: 120px;
 }
 
 .first-button{
     position: absolute;
-    bottom: 690px;
+    bottom: 730px;
     left: 1525px;
     width: 180px;
     height: 50px;
@@ -36,30 +37,30 @@ body{
 .first-photo{
     width: 900px;
     position: absolute;
-    bottom: -20px;
+    bottom: 40px;
     left: 800px;
 
 }
 
 .first-h1{
     position:absolute;
-    bottom: 420px;
-    left: 76px;
+    bottom: 450px;
+    left: 120px;
     font-size: 44px;
 }
 
 .text-1{
     font-size: 23px;
     position: absolute;
-    bottom: 280px;
-    left: 80px;
+    bottom: 320px;
+    left: 120px;
 }
 
 .button-2{
     position: absolute;
     z-index: 2;
-    bottom: 180px;
-    left: 75px;
+    bottom: 210px;
+    left: 120px;
     border-radius: 25px;
     height: 50px ;
     width: 300px;
