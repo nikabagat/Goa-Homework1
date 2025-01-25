@@ -1,0 +1,17 @@
+div{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    animation-name: animation;
+    animation-duration: 2s;
+}
+
+@keyframes animation {
+    from{
+        background-color: red;
+    }
+
+    to{
+        background-color: blue;
+    }
+}

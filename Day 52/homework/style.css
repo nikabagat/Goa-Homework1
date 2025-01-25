@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+}
+
+.parent{
+    transform: translateX(20px) translateY(10px);
+    color: red;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}

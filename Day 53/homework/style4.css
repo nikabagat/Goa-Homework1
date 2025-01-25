@@ -1,0 +1,26 @@
+body{
+    height: 90vh;
+}
+
+p{
+    color: red;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+    animation-name: text-change;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@keyframes text-change {
+    from{
+        font-size: 32;
+    }
+
+    to{
+        color: blue;
+    }
+}

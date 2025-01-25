@@ -1,0 +1,28 @@
+body{
+    height: 90vh;
+}
+
+div{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: relative;
+    top: 160px;
+    left: 170px;
+    animation-name: height;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes height {
+
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: aqua;
+        transform: scale(1) scale(-1);
+    }
+
+}

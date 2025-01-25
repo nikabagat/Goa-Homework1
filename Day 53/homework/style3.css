@@ -1,0 +1,25 @@
+body{
+    height: 100vh;
+}
+
+div{
+    position: relative;
+    left: 130px;
+    top: 160px;
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+    from{
+        background-color: blueviolet;
+    }
+
+    to{
+        transform: rotateX(180deg);
+    }
+}

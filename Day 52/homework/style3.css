@@ -1,0 +1,14 @@
+.parent{
+    width: 250px;
+    height: 250px;
+    background-color: blueviolet;
+    border-radius: 25px;
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+
+.parent:hover{
+    transition: 1s;
+    transform: rotate(30deg);
+}

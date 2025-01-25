@@ -1,0 +1,10 @@
+.parent{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.parent:hover{
+    transition: 1s;
+    transform: translateX(50px) translateY(100px);
+}

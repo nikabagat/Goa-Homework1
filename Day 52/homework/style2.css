@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+}
+
+.parent{
+    transform: translateX(750px) translateY(300px);
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+
+.parent:hover{
+    transform: scale(2.0);
+}
+

@@ -1,0 +1,13 @@
+.parent{
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+
+.parent:hover{
+    transition: 1s;
+    transform: scale(1.5) rotate(180deg);
+}
