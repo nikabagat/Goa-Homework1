@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #e6eff6;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;  /* viewport height 100% - ეს ელემენტის სიმაღლეს ხდის ბრაუზერის ფანჯრის სიმაღლის ტოლს */
+    align-items: center;
+}
+
+.parent{
+    width: 640px;
+    height: 474px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.child1{
+    width: 640px;
+    height: 170px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 45px;
+}
+
+.child2{
+    width: 240px;
+    height: 215px;
+    background-color: #2bb3b1;
+    border-bottom-left-radius: 6px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 45px;
+}
+
+.child3{
+    width: 240px;
+    height: 215px;
+    background-color: #4abebd;
+    border-bottom-right-radius: 6px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 45px;
+}
+
+h1{
+    color: #4fc2b7;
+    font-family: Karla;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.money-back{
+    color: #cde362;
+    margin-top: 24px;
+    font-family: Karla;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.tutorial-access1{
+    margin-top: 12px;
+    color: #c0c4ce;
+    font-family: Karla;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.tutorial-access2{
+    margin-top: 8px;
+    color: #c0c4ce;
+    font-family: Karla;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.subscription{
+    font-family: Karla;
+    font-weight: 700;
+    font-size: 16px;
+    color: #e0fafa;
+}
+
+.price{
+    display: inline-block;
+    font-family: Karla;
+    font-size: 26px;
+    color: #f7f9f8;
+}
+
+.period{
+    display: inline-block;
+}
