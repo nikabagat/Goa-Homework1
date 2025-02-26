@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.main-div{
+    display: flex;
+    justify-content: space-around;
+}
+.main-div h1{
+    color: rgb(82, 32, 84);
+    font-family: "League Spartan", serif;
+    padding-top: 75px;
+    padding-left: 100px;
+    font-size: 28px;
+}
+.products{
+    opacity: 0.7;
+    padding-left: 100px;
+    padding-top: 15px;
+    font-family: "League Spartan", serif;
+    font-size: 12px;
+}
+.class-ratings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding-right:225px;
+    padding-top: 100px; ;
+}
+.class-ratings p{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color:rgb(71, 33, 67);
+    font-size:16px;
+    width: 375px;
+    height: 35px;
+    border: 1px solid rgb(247, 242, 248);
+    background-color: rgb(247, 242, 248);
+    border-radius: 5px;
+    font-family: "League Spartan", serif;
+    font-weight: 600;
+    padding-left: 25px;
+}
+.class-ratings img{
+    padding: 3px;
+}
+.cia{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-left: 150px;
+    padding-top: 50px;
+    height: 200px;
+    width: 900px;
+}
+.class-colton{
+    background-color:rgb(81, 31, 80);
+    border-radius: 3px;
+    color: white;
+}
+.class-colton .colton{
+    height: 25px;
+    position: relative;
+    left: 15px;
+    top: 15px;
+    border-radius: 50%;
+}
+.colton-text{
+    font-size: 13px;
+    font-family:"League Spartan", serif;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 10px;
+    right: 20px;
+}
+.cia p{
+    font-family:"League Spartan", serif;
+}
+.class-irene{
+    background-color: rgb(81, 31, 80);
+    color: white;
+    position: relative;
+    top: 15px;
+    border-radius: 3px;
+}
+.class-irene img{
+    border-radius: 50%;
+    height: 25px;
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+.class-anne{
+    background-color: rgb(81, 31, 80);
+    color: white;
+    position: relative;
+    top: 35px;
+    border-radius: 3px;
+}
+.class-anne img{
+    border-radius: 50%;
+    height: 25px;
+    position: relative;
+    left: 15px;
+    top: 15px;
+}

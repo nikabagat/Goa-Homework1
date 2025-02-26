@@ -23,6 +23,7 @@ body{
 }
 
 .first-button{
+    cursor: pointer;
     position: absolute;
     bottom: 730px;
     left: 1525px;

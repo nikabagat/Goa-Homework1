@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", serif;
+    height: 500vh
+}
+header{
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    list-style-type: none;
+    font-weight: 700;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+}
+.section-header{
+    display: flex;
+    gap: 150px;
+}
+#hero{
+    background-color:#F0EFEB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#hero h1{
+    font-size: 60px;
+    max-width: 534px;
+}
+#hero p{
+    font-size: 24px;
+    margin-top: 20px;
+    line-height: 28.14px;
+    font-weight: 400;
+    max-width: 481px;
+}
+.text{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 20px;
+    flex-direction: column;
+}
+.text button{
+    color: white;
+    background-color: black;
+    border-radius: 100px;
+    font-size:17px ;
+    padding:10px 30px ;
+    cursor: pointer;
+}
+.body-div h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+    font-size: 24px;
+}
+.body-div p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 60px;
+}
+.three-grid{
+    display: flex;
+    justify-content: space-between;
+    padding: 250px;
+}
+.three-grid p{
+    font-weight: 700;
+}
+.three-grid button{
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 750;
+
+}
+.first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(240, 240, 240);
+    height: 500px;
+}
+.second{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    height: 600px;
+    background-color: rgb(224, 224, 224);
+}
+.third{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    background-color: rgb(240, 240, 240);
+}
+.balls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    height: 500px;
+}
+.every-ball{
+    display: flex;
+    gap: 70px;
+}
+.second-balls{
+    display: flex;
+    gap: 50px;
+}
+.main-div{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 250px;
+}
+.three-people{
+    text-align: center;
+}

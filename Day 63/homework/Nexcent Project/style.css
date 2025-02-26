@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 200vh;
+    font-family: "Inter", serif;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 58.76px;
+    width: 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    color: #4D4D4D;
+    font-size: 11.14px;
+}
+nav div{
+    display: flex;
+    background-color: #4CAF4F;
+    width: 133.25px;
+    height: 36.49px;
+    border-radius: 2.78px;
+    cursor: pointer;
+    padding: 9.74px 22.27px 9.74px 22.27px;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.register{
+    color: #FFFFFF;
+}
+.sopia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+    height: 750px;
+    background-color: #F5F7FA;
+}
+.first-page{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.from{
+    color:#4CAF4F ;
+}
+.first-page h1{
+    font-size: 44.55px;
+    opacity: 0.7;
+}
+.first-page p{
+    opacity: 0.6;
+    font-weight: 300;
+}
+.first-page button{
+    background-color: #4CAF4F;
+    color: white;
+    border:none;
+    height: 36.49px;
+    width: 89.55px;
+    border-radius: 2.78px;
+    cursor: pointer;
+}
+.first-page img{
+    height: 6.96px;
+    width: 32.02px;
+}
+.dot{
+    height: 283.3px;
+    width: 272.16px;
+    position: relative;
+    top: 250px;
+    left: 500px;
+}
+.second-page{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.third-page{
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.third-page h1{
+    text-align: center;
+}
+.third-page p{
+    padding-top: 10px;
+}
+.third-page img{
+    padding: 30px;
+}
+.unseen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.unseen div{
+    padding-top:d 30px;
+}
+.unseen button{
+    height: 36.49px;
+    width: 105.55px;
+    border-radius: 2.78px;
+    background-color: #4CAF4F;
+    color: white;
+    border: none;
+}
+.helping{
+    background-color: #F5F7FA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    height: 202.94px;
+}
+.pana{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.pana button{
+    background-color: #4CAF4F;
+    color: white;
+    border:none;
+    height: 36.49px;
+    width: 89.55px;
+    border-radius: 2.78px;
+    cursor: pointer;
+}
+.tesla{
+    background-color: #F5F7FA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 271.47px;
+}
+.tesla div{
+    padding-left: 50px;
+}
+.tesla .six{
+    display: flex;
+    align-items: center;
+}
+.tesla div button{
+    font-weight: 600;
+    font-size: 13.92px;
+    width: 130.86px;
+    height: 20px;
+    color: #4CAF4F;
+    border: none;
+}
+.caring{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.images{
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pell{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.pell h1{
+    font-weight: 600;
+    font-size: 44.55px;
+    line-height: 52.9px;
+    text-align: center;
+}
+.pell button{
+    height: 36.49px;
+    width: 124.25px;
+    background-color: #4CAF4F;
+    border: none;
+    color: white;
+    border-radius: 2.78px;
+}
+button{
+    cursor: pointer;
+}
