@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(230, 239, 246) ;
+}
+.parent{
+    display: grid;
+    grid-template-columns: 270px 270px;
+    grid-template-rows: 200px 200px;
+}
+.child-1{
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+    display: grid;
+    grid-column: 1/3
+}
+.child-2{
+    border-bottom-left-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 16px;
+    background-color:rgb(43, 179, 177);
+}
+.child-3{
+    border-bottom-right-radius: 10px;
+    background-color:rgb(74, 190, 189);
+}
+.second-h1{
+    position: relative;
+    right: 18px;
+    bottom: 10px;
+    font-family: "Karla", serif;
+    font-size: 16px;
+    opacity: 0.9;
+    color: white;
+}
+.first-h1{
+    font-family: "Karla", serif;
+    padding: 30px;
+    color: rgb(66, 167, 166);
+    font-size: 20px;
+}
+.hi2{
+    font-family: "Karla", serif;
+    color: hsl(71, 73%, 54%);
+    padding: 30px;
+    font-size: 16px;
+    position: relative;
+    bottom: 20px;
+}
+.first-p{
+    color: black;
+    opacity: 0.5;
+    font-size: 13px;
+    font-family: "Karla", serif;
+    padding: 30px;
+    position: relative;
+    bottom: 60px;
+}
+.dollar-p{
+    font-family: "Karla", serif;
+    font-size: 24px;
+    color: white;
+}
+.per{
+    font-family: "Karla", serif;
+    opacity: 0.4;
+    font-size: 14px;
+    color: white;
+    position: relative;
+    bottom: 23px;
+    left: 55px;
+    font-weight: 300;
+}
+.second-p{
+    font-family: "Karla", serif;
+    color: white;
+    font-size: 13px;
+    opacity: 0.8;
+    position: relative;
+    bottom: 15px;
+    font-weight: 400;
+}
+.but{
+    font-family: "Karla", serif;
+    color: white;
+    background-color: rgb(191, 223, 50);
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: white;
+    font-size: 16px;
+}
+.third-h1{
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+    font-family: "Karla", serif;
+    font-weight: 600;
+}
+.third-p{
+    color: white;
+    font-size: 14px;
+    opacity: 0.5;
+    font-weight: 300;
+    font-family: "Karla", serif;
+    padding: 20px;
+    position: relative;
+    bottom: 35px;
+}
+.but:hover{
+    
+    background-color:rgb(146, 171, 37) ;
+}
